@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AF</title>
+</head>
+<body>
+    <h1> Somas pares ou ímpares</h1>
+    <form on submit="event.preventDefault(); adiçao(); ">
+        <label>
+        <span> A</span>
+        <input id = "somaa" type="text" name="somar">
+        </label>
+        <label> 
+            <span> B</span>
+            <input id = "somab" type="text" name="somar">
+        </label>
+        <button onClick>Cadastro</button>
+        <div id = "mensagem"></div>
+        <br> <br> <br> <br> <br>
+        <h3> Últimas Somas:</h3>
+
+        <h3> Pares:</h3>
+        <h3> Ímpares:</h3>
+
+    </form>
+    <br>
+    <script src="soma.js"></script>
+    
+</body>
+</html>
